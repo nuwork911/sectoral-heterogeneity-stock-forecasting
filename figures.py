@@ -343,8 +343,8 @@ def fig_shap_heatmap(sci: pd.DataFrame, groups: pd.DataFrame | None) -> None:
     """
     if groups is None or not len(groups):
         return
-    g = groups.copy()
-        if g.shape[1] and not pd.api.types.is_numeric_dtype(g.iloc[:, 0]):
+        g = groups.copy()
+    if g.shape[1] and not pd.api.types.is_numeric_dtype(g.iloc[:, 0]):       # 4 spaces
         g = g.set_index(g.columns[0])
     g = g.apply(pd.to_numeric, errors="coerce").dropna(axis=1, how="all")
     order = [s for s in sci.sort_values("SCI").index if s in g.index]
