@@ -20,11 +20,11 @@ Machine learning studies of stock price direction often report very different re
 
 **Implications for decision support systems:** don't choose models by pre-computed sector complexity; don't switch models on recent performance when the signal is weak, as switching follows noise; score abstaining systems against the class balance of the rows they cover; and treat the evaluation protocol as part of the system design.
 
-<!-- Add figures once PNG versions are in results/figures/, for example:
+Add figures once PNG versions are in results/figures/, for example:
 ![Mean AUC by sector with 95% bootstrap intervals](results/figures/fig_sector_forest.png)
 ![Complexity index vs forecasting performance](results/figures/fig_sci_vs_performance.png)
 ![Model selection policies](results/figures/fig_selection_policies.png)
--->
+
 
 ## Study design
 
