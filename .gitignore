@@ -1,0 +1,14 @@
+# Input data (not redistributed)
+merged_data.csv
+ticker_sectors.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+pandas
+numpy
+scipy
+scikit-learn
+xgboost
+torch
+shap
+pyarrow
+openpyxl
+matplotlib
+python-docx
